@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
+import { PokemonComponent } from "./pokemon/pokemon.component";
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [],
+  imports: [PokemonComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
